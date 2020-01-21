@@ -44,6 +44,6 @@ def main(keywords):
     stream = tweepy.Stream(api.auth, tweets_listener)
     stream.filter(track=keywords, languages=["en"])
     
-# Insert terms to be tracked in main([])
+# Insert terms to be tracked in main([]), arguments are string values held in a list
 if __name__ == "__main__":
-    main(["Engineer", "engineer","#SoftwareDeveloper", "Alexander Vega", "Software", "software", "Developer", "developer","job"])
+    main([])
