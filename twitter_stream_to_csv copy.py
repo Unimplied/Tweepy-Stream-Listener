@@ -1,4 +1,4 @@
-import tweepy
+import tweepy # Twitter API
 import csv # import csv for logging to file
 import logging
 import json
